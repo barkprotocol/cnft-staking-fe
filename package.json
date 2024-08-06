@@ -1,0 +1,43 @@
+{
+  "name": "cnft-staking-fe",
+  "description": "Next.js, TypeScript, Solana, CNFT Staking, Frontend.",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Bark Protocol",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@coral-xyz/anchor": "0.30.1",
+    "@metaplex-foundation/js": "0.20.1",
+    "@metaplex-foundation/mpl-token-auth-rules": "3.0.3",
+    "@metaplex-foundation/mpl-token-metadata": "3.2.1",
+    "@nfteyez/sol-rayz": "0.10.2",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.3",
+    "moment": "^2.30.1",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4"
+  }
+}
